@@ -13,26 +13,45 @@
     <link rel="stylesheet" href="/Public/Home.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav class="nav">
-                <img src="../media/logo.png" alt="logo">
-                <ul class="nav-list">
-                    <li>
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">¿Quienes somos?</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">GPS</a>
-                    </li>
-                    
-                </ul>
-                <a href="#" id="nav-cta">Ingresar</a>
-            </nav>
+    
+
+        <header id="header">
+
+        <div id="normal-header">
+        <a href="#" id="image-link"><img src="/media/logo.png" alt="Reverse Logo" id="header-img"/></a>
+
+        <nav id="nav-bar">
+            <ul>
+            <li class="nav-link" id="menu-item"><a href="#" class="menu-link"> Home </a></li>
+            <li class="nav-link" id="menu-item"><a href="#" class="menu-link"> ¿Quienes somos? </a></li>
+            <li class="nav-link" id="menu-item"><a href="#" class="menu-link"> GPS </a></li>
+            <li class="nav-link" id="menu-item"><a href="#" id="nav-cta"> Ingresar </a></li>
+            </ul>
+        </nav>
         </div>
+
+
+        <div id="responsive-header">
+        <div id="responsive-logo-button">
+            <a href="#" id="image-link"><img src="/media/logo.png" alt="Reverse Logo" id="header-img-black"/></a>
+            <button id="image-button-black"><img src="https://i.ibb.co/yfM3fdZ/dropdown-menu-black.png" alt="Dropdown Menu" id="dropdown-button-black" /></button>
+        </div>
+
+        <div id="responsive-nav-bar">
+            <ul>
+            <li class="nav-link" id="responsive-home-item"><a href="#" class="responsive-menu-link"> Home </a></li>
+            <li class="nav-link" id="responsive-features-item"><a href="#" class="responsive-menu-link"> ¿Quienes somos? </a></li>
+            <li class="nav-link" id="responsive-products-item"><a href="#" class="responsive-menu-link"> GPS </a></li>
+            <li class="nav-link" id="menu-item"><a href="#" id="nav-cta"> Ingresar </a></li>
+            <li class="nav-link" id="responsive-products-item"><a href="#" class="responsive-menu-link">  </a></li>
+            </ul>
+        </div>
+        </div>
+
     </header>
+
+
+
     <section>
     <div class="cover-container">
         <video class="video" src="../media/video.mp4" autoPlay loop muted ></video>
@@ -130,6 +149,16 @@
 
 </section>
 
+
+
+<section class="info">
+<div class="info-container">
+            <div class="info">
+            <h1>Siguenos en nuestro  </h1>
+            </div>
+        </div>
+</section>
+
 </div>
 
     <div class="go-top-container">
@@ -145,6 +174,9 @@
             header.classList.toggle('scrolling-active', windowPosition);
         })
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="/Public/js/menu.js"></script>
     <script src="/Public/js/slider.js"></script>
     
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js'></script>

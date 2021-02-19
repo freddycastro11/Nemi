@@ -20,7 +20,7 @@
         desc:
           "Logramos una buena UX al enfocarnos en diseñar productos útiles, usables y deseables, lo cual influye en que el usuario se sienta satisfecho, feliz y encantado.",
         photo:
-          "https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+          "/media/Tania.jpeg",
         website: "https://rafaelalucas.com",
         email: "mailto:rafaelavlucas@gmail.com",
         linkedin: "https://www.linkedin.com/in/rafaelalucas/",
@@ -29,9 +29,9 @@
         name: "Kevin Parada",
         role: "Desarrollador Back-End",
         desc:
-          "Se encarga de diseñar la lógica y las soluciones para que todas las acciones solicitadas en una página web sean ejecutadas de manera correcta. Trabaja del lado del servidor y procesa la información recibida a través del frontend.",
+          "Se encarga de diseñar la lógica y las soluciones para que todas las acciones solicitadas en una página web sean ejecutadas de manera correcta. ",
         photo:
-          "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
+          "/media/kevin.jpg",
         website: "https://rafaelalucas.com",
         email: "mailto:rafaelavlucas@gmail.com",
         linkedin: "https://www.linkedin.com/in/rafaelalucas/",
