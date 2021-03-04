@@ -537,7 +537,7 @@ q {
 .info-container {
     width: 100%;
     height: 300px;
-    background-color: #fff;
+    background-image: url("/media/arboles.jpeg");
     color: #71cc49;
     
 }
@@ -553,7 +553,7 @@ q {
 
 @media only screen and (max-width: 960px) {
     .info-container {
-        height: 200px;
+        height: 300px;
         width: 100%;
     }
 
@@ -730,5 +730,98 @@ q {
         align-items: center;
         background-color: inherit;
         padding: 2%;
+    }
+}
+
+/* footer */
+
+footer {
+    background: #207b25;
+    padding: 60px 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.partFooter {
+    width: 20%;
+    text-align: center;
+}
+
+.partFooter h5 {
+    margin-top: 10px;
+    color: #99d578;
+}
+.partFooter h4 {
+    color: #031c06;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.partFooter a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    transition: color .3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+
+.partFooter a:hover {
+    color: #1FDE82;
+}
+
+.partFooter img {
+    width: 70%;
+}
+
+.social-media i {
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    margin-right: 5px;
+}
+
+.social-media i:hover {
+    color: #fff;
+    background-color: #1FDE82;
+    border-color: #1FDE82;
+}
+
+@media screen and (max-width:800px) {
+    
+
+    /* Footer */
+
+    footer {
+        justify-content: space-evenly;
+    }
+
+    .partFooter {
+        width: 40%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+
+    /* Footer */
+    .partFooter {
+        width: 95%;
+        margin-bottom: 40px;
     }
 }
